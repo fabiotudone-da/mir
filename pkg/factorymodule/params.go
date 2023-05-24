@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	DefaultMsgBufSize = 1024 * 1024 // 1 MB
+	DefaultMsgBufSize = 128 * 1024 * 1024 // 1 MB
 )
 
 // ModuleGenerator is a function that generates a passive module from a module ID and the parameters.
